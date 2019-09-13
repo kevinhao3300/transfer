@@ -1,0 +1,29 @@
+Discussion Section Problem Set #: 2
+Student Name: Kevin Hao
+EID: kjh2858
+CS login: kjh2858
+Email address: kevinhao3300@yahoo.com
+Unique Number: 50415
+
+1. The pair programming log should contain certain sessions of working on the assignment. This session should have who was present in the session and how long and when the total session was. After that, it should contain who was the driver for any given semgment of time. The pair should change drivers every 30 minutes. The group must spend 80% percent of the time programming together.
+
+2. 
+How many numbers containing 74 are in the file?
+	a. 188
+	b. grep -c "74" "nums.txt"
+How many 12s are in nums.txt?
+	a. 15
+	b. grep -c -iw "12" "nums.txt"
+How many numbers in the file begin with 14?
+	a. 103
+	b. grep -c "^14" "nums.txt" 
+
+3. The system call took longer than the simple procedure call. The system call requires more time because a system call forces the OS to come in and handle the trap. The OS must check for permissions then entire kernel mode, get the appropriate handler, execute the task, then return back to user mode. This takes a lot longer than just jumping to a method and executing it.
+
+4. 32
+
+5.  Process A: Queue 1 
+	Process B: Queue 4
+	Process C: Queue 3 if MLFQ supports redemption
+	Queue 4 if MLFQ doesn't support redemption
+
